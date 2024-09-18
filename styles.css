@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(45deg, #9b59b6, #3498db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container {
+    text-align: center;
+  }
+  
+  .toggle button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #ecf0f1;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+  
+  .toggle .active {
+    background: #9b59b6;
+    color: white;
+  }
+  
+  .form-box {
+    margin-top: 20px;
+  }
+  
+  .form-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+  }
+  
+  .form-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #3498db;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .form-box button:hover {
+    background: #2980b9;
+  }
+  
+  .switch {
+    display: block;
+    margin-top: 15px;
+    color: #3498db;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
